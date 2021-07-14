@@ -73,6 +73,9 @@ nav a{
     text-decoration: none;
     color: white;
 }
+.link-button:hover{background-image: linear-gradient(#fcbc0b,red);
+
+}
 .buttto-text{
     margin: 5px;
 }
