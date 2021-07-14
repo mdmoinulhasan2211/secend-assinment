@@ -1,32 +1,32 @@
-/*------font Poppins wght-500 start link-----*/
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-</style>
-/*-----------font poppice wght-500 start link----*/
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-</style>
-/*-------font Poppins end link----------------*/
 
-*{
-  margin: 0%;
-}
+
+
 
 body{
-    background-color: #2D25A0;
+  margin: 0;
+  background-color: #2D25A0;
+  
 }
 
 /*-----------------------------/
        navigation bar
 /------------------------------*/  
+header{
+    background-color: #2D25A0;
+   padding-bottom: 70px;
+   
 
+}
 nav{
     display: flex;
     justify-content: space-between;
     font-size: 16px;
     font-weight: 500;
-    margin: 85px;
-    margin-top: 30px;
+  
+     margin: 85px;
+      margin-top: 30px;
+    
+   
     
 }
 
@@ -57,7 +57,8 @@ nav a{
     display: flex;
 }
 .cupa-america-football img{
-    width:80%;
+    width:90%;
+    height: 438px;
   
 }
 .font-big{
@@ -74,3 +75,50 @@ nav a{
 .buttto-text{
     margin: 5px;
 }
+
+
+/*---------------------------/
+      main style
+/---------------------------*/
+
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(235, 229, 229);
+   
+}
+.conteinar{
+    background-color: #FFFFFF;
+    width: 1070px;
+    padding: 30px;
+    font-size: 18px;
+    margin-top: 21px;
+    border-radius: 5px;
+    
+
+}
+
+/*---------------------------/
+      plyer style
+/---------------------------*/
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 20px;
+   
+
+}
+.player{
+    box-shadow: 0px 0px 40px rgba(0,0,0,0.15);
+    padding: 15px;
+    width: 300px;
+}
+.player .player-image img{
+    width: 300px;
+    height: 256px;
+}
+
