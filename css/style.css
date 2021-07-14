@@ -217,7 +217,10 @@ main{
     color: white;
 }
 
-/*------------footer---------*/
+/*------------------/
+     footer
+/--------------------*/
+
 .footer-image img{
     width: 362.1px;
     height: 70px;
@@ -233,3 +236,106 @@ main{
 }
 
 
+/*----------------------------/
+     mobail view
+/----------------------------*/     
+
+@media only screen and (max-width:688px) {
+    header{
+        background-color: #2D25A0;
+       padding-bottom: 80px;
+       
+    }
+    nav{
+       
+        
+        font-size: 16px;
+        font-weight: 500;
+      
+         margin: 10px;
+        margin-top: 20px;
+        
+       
+        
+    }
+    
+    nav a{
+        display: none;
+        text-decoration: none;
+        color: white;
+        margin: 5px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .login-button{
+        background-color: #E02C6D;
+        padding: 15px 15px;
+       
+    }
+    .button{
+        display: block;
+        font-size: 16px;
+       
+      
+    }
+
+    /*------------------------------/
+     --header section--            
+/------------------------------*/
+
+.cupa-america-football{
+    width: 100%;
+    padding-left: 20px;
+}
+.flex-section{
+    display: block;
+   
+}
+.cupa-america-football img{
+     margin-top: 80px;
+     width: 329px;
+     height: 259.17px;
+     left: 344px;
+     top: 374px;
+  
+}
+.font-big{
+    font-size:  44px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+}
+.link-button:hover{background-image: linear-gradient(#fcbc0b,red);
+
+}
+.buttto-text{
+    margin: 5px;
+}
+
+   
+
+
+/*---------------------------/
+      main style
+/---------------------------*/
+.conteinar{
+    width: 100%;
+   
+   
+}
+.players{
+    grid-template-columns: repeat(1,1fr);
+}
+main{
+     display: block;
+}
+
+   
+
+
+    
+}
