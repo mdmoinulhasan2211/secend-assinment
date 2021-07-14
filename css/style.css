@@ -236,9 +236,26 @@ main{
     padding-top: 20px;
 
 }
-
-
-
+.fa-youtube{
+    color: red;
+    margin: 5px;
+}
+.fa-facebook{
+    color: blue;
+    margin: 5px;
+}
+.fa-twitter{
+    color: cornflowerblue;
+    margin: 5px;
+}
+.fa-instagram{
+    color:red;
+    margin: 5px;
+}
+.fa-futbol{
+    color: black;
+    margin: 5px;
+}
 
 
 
